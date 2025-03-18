@@ -18,7 +18,7 @@ class Queue {
         if (this.isEmpty()) {
             return "Черга порожня";
         }
-        return this.items.shift();
+        return this.items.pop();
     }
 
     isEmpty() {
@@ -34,6 +34,8 @@ class Queue {
     clearQueue() {
         this.items = [];
     }
+
+
 }
 
 function main() {
