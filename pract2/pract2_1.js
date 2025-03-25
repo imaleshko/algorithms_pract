@@ -72,11 +72,11 @@ class SingleLinkedList {
 
     deleteItem() {
         if (!this.head || !this.head.next) {
-            return "В списку недостатньо елементів"
+            return "В списку недостатньо елементів";
         }
         let current = this.head;
-        let prev = null; // перед видаленим
-        let before = null; // перед теперішнім, для видалення
+        let prev = null;
+        let before = null;
         while (current && current.next) {
             before = current;
             current = current.next;
