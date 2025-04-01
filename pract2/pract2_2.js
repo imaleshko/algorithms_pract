@@ -83,6 +83,9 @@ class DoublyLinkedList {
     }
 
     dublicateValues() {
+        if (this.size === 0) {
+            return "Недостатньо елементів";
+        }
         let p1 = this.head.data;
         console.log(`Показчик спочатку: ${p1}`);
         let current = this.head;
@@ -109,7 +112,7 @@ class DoublyLinkedList {
 
 function main() {
     let list = new DoublyLinkedList();
-    let inputData = [3, 6, 7, 3, 5, 22, 68, 103, -7];
+    let inputData = [];
     inputData.forEach(i => {
         list.add(i);
     })

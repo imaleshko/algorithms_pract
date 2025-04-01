@@ -71,7 +71,7 @@ class SingleLinkedList {
     }
 
     deleteItem() {
-        if (!this.head || !this.head.next) {
+        if (this.size === 0 || this.size === 1) {
             return "В списку недостатньо елементів";
         }
         let current = this.head;
