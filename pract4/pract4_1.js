@@ -7,12 +7,15 @@ function functionCalculation(a, b, x) {
 
     if (x === 1) {
         let root = a * x + b;
-        if (root <= 0) {
-            console.log("Помилка: підкореневий вираз недодатний");
-        }
-        else {
-            result = 1 / root;
-        }
+       
+    }
+
+    if (root <= 0) {
+        console.log("Помилка: підкореневий вираз недодатний");
+    }
+
+    if (root > 0){
+        result = 1 / root;
     }
 
     if (x > 1 && x < 9) {

@@ -112,7 +112,7 @@ class DoublyLinkedList {
 
 function main() {
     let list = new DoublyLinkedList();
-    let inputData = [];
+    let inputData = [4, 12, 15, 23, 53, 63, 11];
     inputData.forEach(i => {
         list.add(i);
     })
