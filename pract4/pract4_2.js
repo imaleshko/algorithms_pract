@@ -33,4 +33,4 @@ function output(m) {
     }
 }
 
-output(15)
+output(5)

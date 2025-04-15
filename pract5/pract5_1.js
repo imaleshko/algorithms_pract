@@ -1,10 +1,10 @@
 function randomArray() {
-    let arr = [];
+    let array = [];
     for (let i = 0; i < 70; i++) {
-        arr.push(Math.floor(Math.random() * 51));
+        array.push(Math.floor(Math.random() * 51));
     }
-    console.log(arr)
-    return arr;
+    console.log(array)
+    return array;
 } 
 
 function sortArray(array) {
